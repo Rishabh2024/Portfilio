@@ -1,0 +1,525 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28, 44, 77);
+    font-family: 'poppins', sans-serif;
+}
+.body
+{
+    color: white;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    padding: 20px 10%;
+    background: #051120;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight is ease forwards;
+}
+
+.navbar a
+{
+ display: inline block;
+ font-size: 25px;
+ color: white;
+ text-decoration: none;
+ margin-left: 45px;
+ transition: 0.3s; 
+ padding-left: 1rem;
+}
+ 
+
+.navbar a:hover
+{
+    color: rgb(9, 223, 223);
+    box-shadow: 0 0 25px rgb(2, 192, 235),
+    0 0 50px rgb(2, 192, 235);
+}
+
+.Home
+{
+    position: relative;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(background\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+
+.home-content h1
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1 span
+{
+    color: rgb(2, 192, 235);
+}
+.home-content p
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.home-sc1 a
+{
+display: inline flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(2, 192, 235);
+border-radius: 50%;
+font-size: 20px;
+color: rgb(2, 192, 235);
+text-decoration: none;
+margin: 30px 25px 30px 0;
+}
+
+.home-sc1 a:hover
+{
+    background-color:rgb(2, 192, 235) ;
+     color: black; 
+    box-shadow: 0 0 25px rgb(2, 192, 235),
+    0 0 50px rgb(2, 192, 235);
+}
+
+.btn-box
+{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: rgb(2, 192, 235);
+    border-radius: 40px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600px;
+
+}
+.btn-box:hover
+{
+    box-shadow: 0 0 25px rgb(2, 192, 235),
+    0 0 50px rgb(2, 192, 235);
+}
+
+
+/* about section */
+
+.About
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+gap: 2rem;
+}
+
+.About
+{
+   
+    position: relative;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(Picsart_23-08-05_20-11-07-305.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 50px 5% 0 60%;
+}
+ul span
+{
+    color: yellow;
+}
+.about-text h1
+{
+font-size: 50px;
+}
+.about-text h1 span
+{
+    color: aqua;
+}
+
+/* education */
+
+.education
+{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(28, 44, 77);
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+
+}
+
+.container span
+{
+    color: yellow;
+}
+.subtitle
+{
+    color: aqua;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 5rem;
+    padding-bottom: 3px;
+}
+ .container
+ {
+   padding: 10px;
+ }
+
+ .edu-box
+ {
+    display: flex;
+    grid-template-columns: repeat(autofit,max(249px,1fr));
+    grid-gap: 40px;
+    margin: 50px 20px 20px 20px;
+ }
+
+.edu-box div
+{
+    background-color: transparent;
+    padding: 40px;
+    margin: 20px;
+    font-size: 20px;
+    border-right: 10px;
+    border-radius: 25px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px rgb(2, 111, 243),
+    1px 1px 20px rgb(4, 114, 249);
+}
+
+  /* skill section */
+.sub-title
+{
+    background-color: rgb(28, 44, 77);
+    font-size: 45px;
+    margin-left: 42%;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1
+{
+    width: 600px;
+    height: 500px;
+    padding: 20px 90px;
+    margin-left: 100px;
+}
+.heading1
+{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+ 
+.bar{
+ font-size: 25px;
+}
+
+.Technical-bars .bar
+{
+    margin: 40px 0px;
+
+} 
+
+.Technical-bars .bar:first-child
+{
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child
+{
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info
+{
+    margin-bottom: 5px;
+
+} 
+ .Technical-bars .bar .info span
+{
+    font-size: 23px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+} 
+.Technical-bars .bar .progress-line
+{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left; 
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.Technical-bars .bar .progress-line span{
+  height: 100%;
+  background-color: aqua;
+  position: absolute;
+  border-radius: 10px;
+  animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.progress-line .html span{
+    width: 80%;
+}
+.progress-line.css span{
+    width: 80%;
+}
+.progress-line.javascript span{
+    width: 80%;
+}
+.progress-line.react span{
+    width: 80%;
+}
+
+
+
+
+
+/* p skill */
+
+.radial-bars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 150px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    transform: translate(-50% , -50%) rotate(-900px);
+    height: 120px;
+    width: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    /* stroke: black; */
+    fill: transparent;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+.text{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: aqua;
+    fill: transparent;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    stroke-linecap: round;
+}
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+
+@keyframes animate-path1
+{
+    100%{
+        stroke-dashoffset: 80;
+    }
+}
+
+@keyframes animate-path2
+{
+    100%{
+        stroke-dashoffset: 20;
+    }
+}
+
+@keyframes animate-path1
+{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes animate-path1
+{
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+
+.radial-bar .percentage
+{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 700;
+    /* animation: showText 0.5s 1s linear forwards;
+    opacity: 0; */
+}
+
+.box-container
+{
+    height: 95%;
+    width: 150%;
+    border: 2px solid rgb(4, 114, 249);
+    margin-top: 2.8rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px rgb(2, 111, 243),
+    1px 1px 20px rgb(4, 114, 249);
+}
+
+.project-box
+{
+    height: 70%;
+    width: 70%;
+    box-shadow: 1px 1px 20px rgb(243, 30, 2);
+    border-radius: 1rem;
+    display: inline-flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+ .project-box .img
+ {
+    padding: 7px;
+ }
+
+ .project .btn-box
+{
+    align-items: center;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+/* contect css */
+
+.contect{
+    margin-top: 10rem;
+}
+
+.contect h1
+{
+    font-size: 33px;
+    color: aqua;
+    font-weight: 700;
+    margin: 20px 0 20px 500px;
+}
+.cont-box
+{
+    height: 500px;
+    width: 70%;
+    border-radius: 1rem;
+    margin: 20px 0 20px 350px;
+    padding: 20px 50px;
+    box-shadow: 1px 1px 20px rgb(243, 30, 2);
+    align-items: center;
+    
+}
+
+form
+{
+    margin: 35px;
+   
+} 
+
+.inputfield
+{
+ width: 400px;
+ height: 40px;
+ display: flex;
+ 
+ margin: 20px 0 0 50px;
+ padding-left: 10px;
+ padding-right: 10px;
+ box-shadow: 1px 1px 20px rgb(243, 243, 243);
+ border-radius: 10px;
+ align-items: center;
+}
+
+.textareafield
+{
+    height: 180px;
+    padding: 10px;
+}
+.btn
+{
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 10px;
+    margin-left: 200px;
+    background-color: aqua;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    box-shadow: 1px 1px 20px rgb(2, 111, 243),
+    1px 1px 20px rgb(4, 114, 249);
+}
